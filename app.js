@@ -2,11 +2,7 @@ const express = require('express');
 const config = require('config');
 const path = require('path');
 const mongoose = require('mongoose');
-var port = process.env.PORT || 5000;
-app.listen(port, ()=>
-{
-    console.log('App is running at the port ${port}');
-});
+
 
 const app = express();
 app.use(express.json({ extended: true }));
