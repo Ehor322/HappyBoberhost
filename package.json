@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "happybober",
   "main": "app.js",
+  "engines":{
+    "node": "16.15.1"
+  },
   "scripts": {
     "start": "cross-env NODE_ENV=production node app.js",
     "server": "nodemon app.js",
