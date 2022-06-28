@@ -1,0 +1,19 @@
+.status{
+  color: #BfBfbF;
+  
+  &::before{
+      display: inline-block;
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 30px;
+      margin-right: 5px;
+      background-color: #D3D3D3;
+  }
+
+  &--online{
+    &::before{
+        background-color: #00c980;
+    }
+}
+}

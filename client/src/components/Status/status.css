@@ -1,0 +1,18 @@
+.status {
+  color: #BfBfbF;
+}
+
+.status::before {
+  display: inline-block;
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 30px;
+  margin-right: 5px;
+  background-color: #D3D3D3;
+}
+
+.status--online::before {
+  background-color: #00c980;
+}
+/*# sourceMappingURL=status.css.map */

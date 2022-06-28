@@ -1,0 +1,42 @@
+.about{
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 0;
+  z-index: 2;
+  .left{
+    width: 45%;
+    img{
+      width: 100%;
+    }
+  }
+  .right{
+    
+    color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 45%;
+    line-height: normal;
+  }
+
+  .about-big-text{
+    font-family: 'Montserrat';
+    font-size: 3.3vw;
+    line-height: 5vw;
+    font-weight: bolder;
+  }
+
+  .about-normal-text{
+    margin-bottom: 8vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    p{
+      margin-top: 3vw;      
+    }
+    
+  }
+}
+
+

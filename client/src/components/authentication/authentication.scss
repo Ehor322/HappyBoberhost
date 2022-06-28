@@ -1,0 +1,106 @@
+
+.login__wrapper{
+  .wrapper-flex{
+    display: flex;
+    .item{
+      margin-left: 2vw;
+      div{
+        margin-top: 40px;
+        .input-login{
+          color: #3a3a3a;
+          display: block;
+          width: 30vw;
+          background: transparent;
+          border: none;
+          outline: none;
+          border-bottom: 1px solid gray;
+          font-size: 1.3vw;
+          font-weight: bold;
+          align-items: center;
+          resize: none;
+        }
+        .input-login::placeholder{
+          color: #C7C7C7;
+        }
+      }
+    }
+    .img-wrapper{
+      img{
+        width: 25vw;
+        margin-left: 1vw;
+        margin-top: 2vw;
+      }
+      
+    }
+    .sign-up__button{
+      align-items: center;
+      margin: auto auto;
+      border: .2vw solid #D7AE5C;
+      padding: 0.5vw 1.5vw;
+      font-weight: bold;
+    
+      background: linear-gradient(to right, #00000000 50%, #D7AE5C 50%) left;
+      background-size: 200%;
+      transition: .2s ease-in-out;
+      font-size: 1vw;
+    }
+    
+    
+    .sign-up__button:hover{
+      background-position: right;
+    }
+    
+  
+    .display-buttons{
+      button{
+        margin-right: 16vw;
+      }
+      label{
+        font-size: 0.79vw;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+    }
+  }
+  .login-logo{
+    width: 4vw;
+  }
+}
+
+
+
+.login_main-text{
+  font-size: 2vw;
+  margin-bottom: 1vw;
+  margin-top: 1.3vw;
+  color: #423D3D;
+  font-weight: 800;
+}
+
+.register-flex{
+  display: flex;
+  input{
+    width: 14vw;
+  }
+  div + div{
+    margin-left: 2vw;
+  }
+}
+
+
+.register-input{
+  color: #3a3a3a;
+  display: block;
+  width: 30vw;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  font-size: 1.3vw;
+  font-weight: bold;
+  align-items: center;
+  resize: none;
+}
+.register-input::placeholder{
+  color: #C7C7C7;
+}

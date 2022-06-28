@@ -1,0 +1,25 @@
+.app{
+
+
+  ul{
+    padding: 0;
+  }
+
+  .sections{
+    width: 100%;  
+    position: relative;
+    //scroll-snap-type: y mandatory;
+    //scroll-behavior: smooth;
+    scrollbar-width: none; //for firefox
+
+
+    > *{
+      width: 100vw;
+      //scroll-snap-align: start;
+    }
+
+    
+  }
+
+
+}

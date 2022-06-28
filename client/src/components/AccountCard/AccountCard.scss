@@ -1,0 +1,167 @@
+.AccountCard{
+  background-color: #EFEFEF;
+  .big-flex-accountCard{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2vw;
+    margin-top: 1vw;
+    .right-region {
+      display: flex;
+      height: 3vw;
+      font-weight: bolder;
+      margin-top: 1.5vw;
+      background-color: white;
+      padding-left: 0.5vw;
+      padding-right: 1vw;
+      img{
+        margin-top: 0.8vw;
+        height: 1.5vw;
+      }
+      div{
+        margin-top: 0.8vw;
+        font-size: 1vw;
+      }
+    }
+   }
+   .flex-accountCard{
+    display: flex;
+    .right{
+      margin-top: 1vw;
+      margin-left: 1vw;
+    }
+    .left-big{
+      font-size: 1.5vw;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    .left-medium{
+      font-size: 1vw;
+    }
+   }
+}
+
+.circle-photo img{
+  width: 5vw;
+  height: 5vw;
+  border-radius: 10vw;
+  margin-left: 1vw;
+  margin-top: 0.3vw;
+ }
+
+.AccountCard-Info{
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+  
+  .AccountCard-Info-Elem{
+    margin-top: 0.3vw;
+    font-family: 'Alliance No.2';
+  }
+  .AccountCard-Info-low{
+    font-family: 'Alliance No.2';
+    font-weight: 400;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+  }
+  .AccountCard-Info-high{
+    font-family: 'Alliance No.2';
+    font-weight: 700;
+    font-size: 1.2vw;
+  }
+  .AccountCard-Info-Elem__Main{
+    font-family: 'Alliance No.2';
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 1vw;
+  }
+  .flex-accountCard-btns{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  .Rewiws-Element-text{
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+    margin-right: 3vw;
+    font-family: 'Alliance No.2';
+    font-size: 1.2vw;
+    line-height: 2vw;
+    margin-bottom: 1vw;
+  }
+  .Rewiws-Element-text::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 0.01vw;
+    left: 0;
+    background-color: #bbbb;
+    bottom: 0;
+  }
+}
+
+
+.AccountCard-Btn{
+  margin-top: 0.4vw;
+}
+
+.AccountCard-Line-full-button{
+  background: linear-gradient(-45deg, #ffe032, #fea569, #50cbfc, #c1ff5c);
+  background-size: 800% 400%;
+  padding: 0.8vw 1.5vw;
+  display: inline-block;
+  border: none;
+  border-radius: 0.4vw;
+  font-size: 0.9vw;
+  font-weight: 700;
+  transition: all .5s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+  transform: scale(0.9);
+}
+
+
+.AccountCard-Line-full-button:hover {
+animation: gradient 3s infinite;
+transform: scale(1);
+}
+
+.AccountCard-Line-full-button:active {
+animation: gradient 3s infinite;
+transform: scale(0.8);
+}
+
+
+@keyframes gradient {
+  0% {
+  background-position: 0% 50%;
+  }
+
+  50% {
+  background-position: 100% 50%;
+  }
+
+  100% {
+  background-position: 0% 50%;
+  }
+}
+
+
+.AccountCard-Line-border-button{
+  color: black;
+  padding: 0.5vw 1.5vw;
+  background: transparent;
+  border-style: solid;
+  border-color: #ffe032;
+  border-radius: 0.4vw;
+  font-size: 0.9vw;
+  font-weight: 700;
+  transition: all .5s ease-in-out;
+  
+  animation: gradient 10s infinite;
+  transform: scale(1);
+  margin-bottom: 1vw;
+}
+
+.AccountCard-Line-border-button:active {
+animation: gradient 3s infinite;
+transform: scale(0.9);
+}

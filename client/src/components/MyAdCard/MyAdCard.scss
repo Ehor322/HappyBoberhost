@@ -1,0 +1,138 @@
+.Main-Account__input-text{
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.contact__input{
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 1000px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(185, 185, 185);
+  color: rgb(59, 59, 59);
+  font-size: 21px;
+  font-weight: bold;
+  align-items: center;
+  margin: 15px auto 15px auto;
+  resize: none;
+}
+
+.account__input-btn{
+  display: block;
+  align-items: center;
+	margin: auto auto;
+	border: .3vw solid #D7AE5C;
+	padding: 1vw 1.5vw;
+	font-weight: bold;
+
+	background: linear-gradient(to right, #00000000 50%, #D7AE5C 50%) left;
+	background-size: 210%;
+	transition: .2s ease-in-out;
+	font-size: 1vw;
+}
+
+.account__input-btn:hover{
+	background-position: right;
+}
+
+.ad__input{
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 1000px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: rgb(59, 59, 59);
+  font-size: 21px;
+  font-weight: bold;
+  align-items: center;
+  margin: 15px auto 15px auto;
+  resize: none;
+}
+
+.account__input-ImgWrapper{
+  display: inline-block;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 100%;
+  text-align:center;
+  overflow: hidden;
+  margin-left: 1vw;
+
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.ad__input-Button {
+  background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+  background-size: 800% 400%;
+  padding: 1em 2em;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  transition: all .5s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  margin-left: 2vw;
+ }
+ 
+ .ad__input-Button:hover {
+  animation: gradient 3s infinite;
+  transform: scale(1.05);
+ }
+ 
+ .ad__input-Button:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+ }
+ 
+ @keyframes gradient {
+  0% {
+   background-position: 0% 50%;
+  }
+ 
+  50% {
+   background-position: 100% 50%;
+  }
+ 
+  100% {
+   background-position: 0% 50%;
+  }
+ }
+
+ .account__input-flex{
+  display: flex;
+  justify-content: center;
+ }
+ .adSetting-Flex{
+  display: flex;
+  justify-content: center;
+ }
+ .adSetting-Grid{
+  display: grid;
+  grid-template-columns: 13vw 13vw 13vw 13vw 13vw;
+ }
+ .Radio{
+  display: flex;
+  justify-content: center;
+  color: rgb(59, 59, 59);
+  font-size: 1.1vw;
+  font-weight: bold;
+  margin-bottom: 1vw;
+  input{
+    display: inline;
+    width: 3vw;
+    position: relative;
+
+  }
+}

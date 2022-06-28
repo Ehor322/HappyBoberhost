@@ -1,0 +1,187 @@
+@import "../../global.scss";
+
+.topbar{
+  ul{
+    list-style-type: none;
+  }
+  width: 100%;
+  color: black;
+  position: fixed;  
+  top: 0;
+  z-index: 2;
+  .background{
+    position: absolute;
+    width: 100%;
+    height: 4vw;
+    background-color: white;
+    z-index: -3;
+  }
+  .wrapper{
+    padding: 0.521vw 1.563vw;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.938vw;
+  }
+
+  .logo__img{
+    width: 7.031vw;
+  }
+
+  .menu-list{
+    cursor: pointer;
+    display: flex;
+    margin-top: 1.042vw;
+    position: relative;
+    .menu-list__item{
+      position: relative;
+    }
+    .menu-list__item::after{
+      content: "";
+      position: absolute;
+      background-color: #ff3c78;
+      height: 0.1vw;
+      width: 0;
+      left: 0;
+
+      transition: 0.5s;
+    }
+  
+    .menu-list__item:hover::after{
+      width: 100%;
+    }
+
+    .menu-list__item + .menu-list__item { 
+      margin-left: 3vw;
+      
+    }
+  }
+
+  .right{
+    cursor: pointer;
+    display: flex;
+  }
+
+  .right-elem + .right-elem{
+    margin-left: 1vw;
+  }
+
+  .favorite-img{
+    margin-top: 0.781vw;
+    width: 1.8vw;
+  }
+
+  .language-button{
+    margin-top: 1vw;
+  }
+
+  .language-img{
+    width: 0.625vw;
+    height: 0.625vw;
+  }
+
+  .account-button{
+    margin-top: 0.5vw;
+  }
+  .account-img{
+    width: 2.2vw;
+  }
+
+ .DropDownContainer{
+  margin: 0 auto;
+ }
+
+.DropDownHeader{
+  //margin-top: 0.5vw;
+  padding: 0.4vw 0.4vw;
+  color: rgb(26, 26, 26);
+  //background: #ffda8f;
+  //box-shadow: 0px 0.2vw 0.2vw rgba(0, 0, 0, 0.15);
+  border-radius: 1vw;
+  margin-bottom: 0.3vw;
+}
+.DropDownHeader-Enter{
+	background: linear-gradient(-45deg, #ffe032, #fea569, #fc9550, #ff825c);
+	background-size: 800% 400%;
+	padding: 1vw 2vw;
+	display: inline-block;
+	border: none;
+	border-radius: 0.4vw;
+	font-size: 0.9vw;
+	font-weight: 700;
+	color: white;
+	transition: all .5s ease-in-out;
+	animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+	transform: scale(.8);
+}
+
+.DropDownHeader-Enter:hover {
+	animation: gradient 3s infinite;
+	transform: scale(.9);
+ }
+ 
+ .DropDownHeader-Enter:active {
+	animation: gradient 3s infinite;
+	transform: scale(0.7);
+ }
+ 
+ .DropDownListContainer{
+  height: 16vw;
+  width: 1vw;
+ }
+  .DropDownList {
+    position: absolute;
+    width: 12vw;
+    top: 5vw;
+    right: 1vw;
+    margin-left: 1vw;
+    padding: 0;
+    margin-bottom: 0.3vw;
+    padding-left: 1vw;
+    background: #ffffff;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1vw;
+    border: 0.2vw solid #ffda8f;
+    box-sizing: border-box;
+    color: rgb(26, 26, 26);
+    font-size: 1vw;
+    font-weight: 500;
+    &:first-child {
+      padding-top: 0.8vw;
+    }
+    animation: fadeInFromNone 0.2s ease-out;
+    li{
+      position: relative;
+    }
+    li::after{
+      content: "";
+      position: absolute;
+      background-color: #ff3c78;
+      height: 0.1vw;
+      width: 0;
+      left: 0;
+      bottom: 10.3vw;
+      transition: 0.5s;
+      z-index: 5;
+    }
+  }
+
+  .ListItem{
+
+    margin-bottom: 0.8vw;
+  }
+}
+
+
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}

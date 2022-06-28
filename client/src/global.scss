@@ -1,0 +1,71 @@
+@import "~antd/dist/antd.css";
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  
+$mainColor: white;
+
+a{
+    color: black;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: black;
+}
+
+ul{
+     list-style-type: none;
+}
+
+@font-face {
+    font-family: "AllianceNo1-ExtraBold";
+    src: local("AllianceNo1-ExtraBold"),
+     url("../src/fonts/AllianceNo1-ExtraBold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "AllianceNo1-Bold";
+    src: local("AllianceNo1-Bold"),
+     url("../src/fonts/AllianceNo1-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "AllianceNo1-Light";
+    src: local("AllianceNo1-Light"),
+     url("../src/fonts/AllianceNo1-Light.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "AllianceNo1-Medium";
+    src: local("AllianceNo1-Medium"),
+     url("../src/fonts/AllianceNo1-Medium.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "AllianceNo1-SemiBold";
+    src: local("AllianceNo1-SemiBold"),
+     url("../src/fonts/AllianceNo1-SemiBold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+
+
+.pink{
+    color: #FF3C82;
+    font-weight: 700;
+  }
+
+.blue{
+    color: #3A70FA;
+    font-weight: 700;
+}

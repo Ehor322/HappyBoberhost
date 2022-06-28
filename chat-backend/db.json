@@ -1,0 +1,163 @@
+{
+    "dialogs": [
+      {
+        "_id": "5ff69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "5ff69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "Andrew Gragas",
+          "avatar": "https://steamuserimages-a.akamaihd.net/ugc/1606051503660105748/D85625A84C09CC530EB0E76A9F1BEC2210F3E771/?imw=200&imh=200&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+        }
+      },
+      {
+        "_id": "5vf69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "5vf69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "AYAYA",
+          "avatar": null
+        }
+      },
+      {
+        "_id": "52f69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "52f69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "AYAYA",
+          "avatar": null
+        }
+      },
+      {
+        "_id": "a2f69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "a2f69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "AYAYA",
+          "avatar": null
+        }
+      },
+      {
+        "_id": "v2f69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "v2f69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "AYAYA",
+          "avatar": null
+        }
+      },
+      {
+        "_id": "ssf69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "ssf69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "AYAYA",
+          "avatar": null
+        }
+      },
+      {
+        "_id": "aaf69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "aaf69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "AYAYA",
+          "avatar": null
+        }
+      },
+      {
+        "_id": "fff69ca66f732431d9e7c42e4d9b41c0",
+        "text": "Hello, bro, it's me, Gragas",
+        "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+        "user": {
+          "_id": "fff69ca66f732431d9e7c42e4d9b41c0",
+          "fullname": "AYAYA",
+          "avatar": null
+        }
+      }
+    ],
+      "messages":[
+          {
+            "_id": "2ff69ca66f732431d9e7c42e4d9b41c0",
+              "text": "Hello, bro, it's me, Gragas",
+              "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+              "user": {
+                "_id": "2ff69ca66f732431d9e7c42e4d9b41c0",
+                "fullname": "AYAYA",
+                "avatar": "https://nure.ua/wp-content/uploads/Employees_photo/Golian_VV.jpg"
+              },
+              "dialog" : "5ff69ca66f732431d9e7c42e4d9b41c0"
+          },
+          {
+            "_id": "3ff69ca66f732431d9e7c42e4d9b41c0",
+            "text": "Hello, bro, it's me, Gragas",
+            "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+            "user": {
+              "_id": "3ff69ca66f732431d9e7c42e4d9b41c0",
+              "fullname": "AYAYA",
+              "avatar": null
+            },
+            "dialog" : "5ff69ca66f732431d9e7c42e4d9b41c0"
+        },
+        {
+          "_id": "4ff69ca66f732431d9e7c42e4d9b41c0",
+            "text": "Hello, bro, it's me, Gragas",
+            "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+            "user": {
+              "_id": "4ff69ca66f732431d9e7c42e4d9b41c0",
+              "fullname": "AYAYA",
+              "avatar": null
+            },
+            "dialog" : "5ff69ca66f732431d9e7c42e4d9b41c0"
+        },
+        {
+          "_id": "5ff69ca66f732431d9e7742e4d9b41c0",
+            "text": "Hello, bro, it's me, Gragas",
+            "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+            "user": {
+              "_id": "5ff69ca66f732431d9e7742e4d9b41c0",
+              "fullname": "AYAYA",
+              "avatar": null
+            },
+            "dialog" : "5ff69ca66f732431d9e7c42e4d9b41c0"
+        },
+        {
+          "_id": "6ff69ca66f732431d9e7c42e4d9b41c0",
+            "text": "Hello, bro, it's me, Gragas",
+            "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+            "user": {
+              "_id": "6ff69ca66f732431d9e7c42e4d9b41c0",
+              "fullname": "AYAYA",
+              "avatar": null
+            },
+            "dialog" : "5ff69ca66f732431d9e7c42e4d9b41c0"
+        },
+        {
+          "_id": "7ff69ca66f732431d9e7c42e4d9b41c0",
+            "text": "Hello, bro, it's me, Gragas😢",
+            "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+            "user": {
+              "_id": "7ff69ca66f732431d9e7c42e4d9b41c0",
+              "fullname": "AYAYA",
+              "avatar": null
+            },
+            "dialog" : "5ff69ca66f732431d9e7c42e4d9b41c0"
+        },
+        {
+          "_id": "8ff69ca66f732431d9e7c42e4d9b41c0",
+            "text": "Hello, bro, it's me, Gragas😢",
+            "created_at": "Fri Jun 10 2022 13:00:37 GMT+0000 (UTC)",
+            "user": {
+              "_id": "8ff69ca66f732431d9e7c42e4d9b41c0",
+              "fullname": "AYAYA",
+              "avatar": null
+            },
+            "dialog" : "5ff69ca66f732431d9e7c42e4d9b41c0"
+        }
+      ]
+  }

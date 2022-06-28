@@ -1,0 +1,66 @@
+.chat-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 20px;
+  position: relative;
+}
+
+.chat-input__emoji-picker {
+  position: absolute;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.chat-input__emoji-picker .emoji-scroll-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+.chat-input__emoji-picker .emoji-scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: #ececec;
+  border: 3px solid #fff;
+  border-radius: 50px;
+}
+
+.chat-input__smile-btn {
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat-input__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 15px;
+}
+
+.chat-input__actions-upload-btn {
+  cursor: pointer;
+}
+
+.chat-input__actions-upload-btn input::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.chat-input__actions-upload-btn:hover button {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.chat-input .ant-btn-circle .anticon {
+  cursor: pointer;
+  font-size: 20px;
+}
+/*# sourceMappingURL=chatInput.css.map */

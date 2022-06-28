@@ -1,0 +1,41 @@
+{
+  "name": "happybober",
+  "version": "1.0.0",
+  "description": "happybober",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "server": "nodemon app.js",
+    "server-chat": "nodemon --watch chat-backend chat-backend/src/index.ts",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run server-chat\" \"npm run client\""
+  },
+  "keywords": [
+    "happybober"
+  ],
+  "author": "happybober team",
+  "license": "ISC",
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.6",
+    "react-facebook-login": "^4.1.1"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.205",
+    "@swc/helpers": "^0.4.2",
+    "concurrently": "^7.2.1",
+    "cross-env": "^7.0.3",
+    "node-dev": "^7.4.3",
+    "nodemon": "^2.0.18",
+    "regenerator-runtime": "^0.13.9",
+    "ts-node": "^10.8.1"
+  }
+}

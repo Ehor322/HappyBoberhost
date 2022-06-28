@@ -1,0 +1,38 @@
+.messages {
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 0;
+  overflow: auto;
+}
+
+.messages--loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.messages .ant-spin-text {
+  color: #E3BD59;
+  font-weight: 600;
+}
+
+.messages .ant-spin-dot-item {
+  background-color: #E3BD59;
+}
+
+.messages::-webkit-scrollbar {
+  width: 10px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: #ececec;
+  border: 3px solid #fff;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=messages.css.map */

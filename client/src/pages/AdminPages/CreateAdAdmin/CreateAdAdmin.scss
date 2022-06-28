@@ -1,0 +1,80 @@
+.ManeLabel-CreateAd{
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .create-flex{
+    display: flex;
+    justify-content: space-around;
+    .right{
+      input{
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        width: 40vw;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        color: rgb(59, 59, 59);
+        font-size: 1.1vw;
+        font-weight: bold;
+        align-items: center;
+        margin: 1vw auto 1vw auto;
+        resize: none;
+      }
+      .Radio{
+        display: flex;
+        color: rgb(59, 59, 59);
+        font-size: 1.1vw;
+        font-weight: bold;
+        input{
+          display: inline;
+          width: 3vw;
+          position: relative;
+  
+        }
+      }
+    }
+  
+  
+  }
+  .createAdPage-textarea{
+    width: 60vw;
+    height: 10vw;
+    resize: none;
+    display: block;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: rgb(59, 59, 59);
+    font-size: 1.1vw;
+    font-weight: bold;
+    align-items: center;
+    margin: 1vw auto 5vw auto;
+  }
+  
+  .createAdPage-button{
+      align-items: center;
+    margin: 1vw auto 5vw auto;
+    margin-left: 50%;
+    margin-right: 50%;
+      border: .3vw solid #D7AE5C;
+      padding: 1.2vw 1.5vw;
+      font-weight: bold;
+  
+      background: linear-gradient(to right, #00000000 50%, #D7AE5C 50%) left;
+      background-size: 220%;
+      transition: .2s ease-in-out;
+      font-size: 1vw;
+  }
+  
+  
+  .createAdPage-button:hover{
+      background-position: right;
+  }
+  

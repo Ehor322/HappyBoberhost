@@ -1,0 +1,119 @@
+
+.chat {
+  display: flex;
+  background-color: #fff;
+  height: 100%;
+  width: 80vw;
+  margin: 0 auto;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+
+  &__sidebar {
+    width: 320px;
+    border-right: 1px solid #E5CC8B;
+    &-header {
+      display: flex;
+      justify-content: left;
+      padding: 21px;
+      height: 60px;
+      border-bottom: 1px solid #E5CC8B;
+      margin-bottom: 20px;
+      & > div {
+        span {
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    &-dialogs {  
+      height: calc(100% - 138px);
+
+      .dialogs {
+        padding: 0px 10px;
+        overflow: auto;
+        height: 100%;
+        &__item {
+          padding: 10px 10px;
+          cursor: pointer;
+          &.active, &:hover {
+              background-color: #E5CC8B;
+            }
+        }
+
+        &::-webkit-scrollbar{
+          width: 10px;
+        }
+
+        &::-webkit-scrollbar-thumb{
+          background-color: #ececec;
+          border: 3px solid #fff;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+
+  &__dialog {
+      flex: 1;
+      position: relative;
+
+      .ant-empty {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 12px;
+          border-bottom: 1px solid #E5CC8B;
+          height:60px;
+  
+          .ant-btn-circle {
+            svg {
+              font-size: 22px;
+            }
+          }
+
+          &-center {
+              text-align: center;
+              b {
+                  font-size: 14px;
+              }
+          }
+
+          &-username {
+              display: block;
+              font-weight: 500;
+          }
+      }
+  }
+  input, textarea{
+    border-radius: 0.5vw;
+    height: 40px;
+    font-size: 14px;
+    padding: 6px 11px 8px;
+    border: 1px solid #b2b2b2;
+    background-color: #f7f8f9;
+    &:focus {
+        border:1px solid #b2b2b2; 
+        box-shadow: none;
+    }
+    &:hover{
+        border:1px solid #b2b2b2;
+    }
+    &::-webkit-scrollbar{
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb{
+      background-color: #ececec;
+      border: 3px solid #f7f8f9;
+      border-radius: 50px;
+    }
+  }
+}

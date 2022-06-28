@@ -1,0 +1,31 @@
+.Report-Wrapper{
+  z-index: 10;
+  font-size: 1vw;
+  p{
+    font-size: 2vw;
+    font-weight: 700;
+    img{
+      
+      width: 2vw;
+    }
+  }
+  
+  div{
+    margin-top: 0.5vw;
+    font-size: 1vw;
+  }
+  textarea{
+    margin-left: 0.3vw;
+  }
+  .report-flex{
+    display: flex;
+    justify-content: space-between;
+    img{
+      width: 4vw;
+    }
+    button{
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+    }
+  }
+}

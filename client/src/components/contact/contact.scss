@@ -1,0 +1,135 @@
+@import "../../global.scss";
+.contact{
+  position: relative;
+  .contact__main-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 36vw;
+    background: #DDDDDD;
+    p{
+      font-family: "Montserrat";
+      font-size: 15.625vw;
+      font-weight: bolder;
+      color: #EFEFEF;
+    }
+  }
+  .contact__main-screen-img{
+    position: absolute;
+    top: 0;
+  }
+  .contact__main-screen-img1{
+    margin-left: 22%;
+    margin-top: 5%;
+    width: 12vw;
+
+  }
+  .contact__main-screen-img2{
+    margin-left: 33%;
+    width: 35vw;
+  }
+  .contact__main-screen-img3{
+    margin-left: 70%;
+    margin-top: 25%;
+    width: 3vw;
+  }
+  .contact__main-screen-img4{
+    margin-left: 45%;
+    margin-top: 30%;
+    width: 15vw;
+  }
+}
+
+
+
+.contact__input-container{
+  max-width: 100%;
+}
+
+.description-text{
+  line-height: 24px;
+}
+
+.contact__input + div{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  align-items: center;
+  margin: 30px auto 16px auto;
+}
+
+.contact__input-flex + .contact__input-flex{
+  max-width: 1000px;
+  margin-left: 25px;
+}
+
+.contact__input{
+  font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 1000px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: rgb(59, 59, 59);
+  font-size: 21px;
+  font-weight: bold;
+  align-items: center;
+  margin: 15px auto 15px auto;
+  resize: none;
+}
+
+
+.contact__main-screen-text{
+  margin-top: 1.5vw;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+
+
+.contact__input-btn{
+  display: block;
+  align-items: center;
+  margin: auto auto;
+	background: linear-gradient(-45deg, #ffe032, #fea569, #50cbfc, #c1ff5c);
+	background-size: 800% 400%;
+	padding: 1vw 2vw;
+	border: none;
+	border-radius: 0.4vw;
+	font-size: 0.9vw;
+	font-weight: 700;
+	color: white;
+	transition: all .5s ease-in-out;
+	animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+  transform: scale(.9);
+}
+
+.contact__input-btn:hover {
+	animation: gradient 3s infinite;
+	transform: scale(1.0);
+ }
+ 
+ .contact__input-btn:active {
+	animation: gradient 3s infinite;
+	transform: scale(0.8);
+ }
+ 
+ @keyframes gradient {
+	0% {
+	 background-position: 0% 50%;
+	}
+ 
+	50% {
+	 background-position: 100% 50%;
+	}
+ 
+	100% {
+	 background-position: 0% 50%;
+	}
+ }

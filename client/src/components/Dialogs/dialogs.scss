@@ -1,0 +1,119 @@
+.dialogs {      
+  &__search{
+    padding: 0px 8px 20px 10px;
+
+    .ant-input-group-addon{
+      border-top-left-radius: 0.5vw;
+      border-bottom-left-radius: 0.5vw ;
+      background-color: #f7f8f9;
+      border-top: 1px solid #b2b2b2;
+      border-left: 1px solid #b2b2b2;
+      border-bottom: 1px solid #b2b2b2;
+    }
+    // .ant-input{
+    //   background-color: #f7f8f9;
+    //   height: 38px;
+    //   border: 1px solid #b2b2b2;
+    //   &:focus {
+    //       border:1px solid #b2b2b2; 
+    //       box-shadow: none;
+    //   }
+    //   &:hover{
+    //       border:1px solid #b2b2b2;
+    //   }
+    // }
+  }
+
+    &__item {
+      $item: &;
+      display: flex;
+      border: 1px solid #E5CC8B;
+      border-radius: 0.5vw;
+      padding: 10px;
+      margin-bottom: 0.5vw;
+      color: #202020;
+      &--selected {
+        background-color: #E5CC8B;
+      }
+  
+      &-avatar {
+        position: relative;
+        flex: 0 0 40px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;        
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+  
+      &--online {
+        #{$item}-avatar {
+          &::before {
+            display: block;
+            position: absolute;
+            bottom: -2px;
+            right: 0;
+            content: "";
+            background-color: #00c980;
+            border-radius: 30px;
+            width: 13px;
+            height: 13px;
+            border: 3px solid #fff;
+          }
+        }
+      }
+  
+      &-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+        &-top {
+          display: flex;
+          b {
+            font-weight: 500;
+            font-size: 14px;
+            flex: 1;
+          }
+          span {
+            opacity: 0.5;
+          }
+        }
+        &-bottom {
+          position: relative;
+          p {
+            opacity: 0.8;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 190px;
+            height: 1.2em;
+            white-space: nowrap;
+          }
+          &-count {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background: #769DFF;
+            color: #fff;
+            font-weight: bold;
+            width: 100%;
+            min-width: 18px;
+            max-width: 23px;
+            height: 18px;
+            border-radius: 39px;
+            font-size: 8px;
+            text-align: center;
+            line-height: 17px;
+          }
+          .message__icon-readed {
+            bottom: 0;
+            left: auto;
+            right: 0;
+          }
+        }
+      }
+    }
+  }

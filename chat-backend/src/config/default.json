@@ -1,0 +1,11 @@
+{
+    "port": 4000,
+    "jwtSecret": "happybober",
+    "mongoUri": "mongodb+srv://admin:admin@cluster0.njylsgz.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:6000",
+    "nove-env": "development",
+    "jwt-max-age": "7 days",
+    "cloudinary_name": "doho1gpsg",
+    "cloudinary_api_key": "718792269719969",
+    "cloudinary_api_secret": "wz-U7zqGJfFzauvaQjvNtRCcGyM"
+}

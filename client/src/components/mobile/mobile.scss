@@ -1,0 +1,129 @@
+@import "../../global.scss";
+
+@keyframes marquee {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-100%, 0);
+  }
+}
+
+.mobile{
+  overflow-x: hidden;
+  .main{
+    position: relative;
+    height: 60vw;
+    .left{
+      margin-left: 20%;
+      margin-right: 50%;
+      position: absolute;
+      width: 32vw;
+      height: 45vw;
+      color: #EFEFEF;
+      background: #C4293C;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      transform: rotate(5deg);
+
+      z-index: 1;
+
+      .BigText{
+        margin-top: 2vw;
+        font-weight: 700;
+        font-size: 2.5vw;
+        line-height: 3.281vw;
+        text-align: center;
+      }
+      .TextList{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.667vw;
+        line-height: 2.135vw;
+        margin-left: 1.667vw;
+        margin-top: 1vw;
+
+      }
+      .TextNormal{
+        margin-top: 2vw;
+        font-weight: 700;
+        font-size:  1.667vw;
+        line-height: 2.188vw;
+        text-align: center;
+        padding: 0 1vw 0 1vw;
+      }
+      .buttons{
+        display: flex;
+        justify-content: space-evenly;
+        a{
+          img{
+            width: 14vw;
+          }
+        }
+      }
+    }
+    .right{
+      position: absolute;
+      margin-left: 50%;
+      margin-right: 50%;
+      width: 40%;
+      z-index: 0;
+      img{
+        width: 75%;
+      }
+    }
+  }
+}
+
+.marquee {
+  position: relative; 
+  transform: rotate(-3.99deg);
+  width: 105vw;
+  max-width: 105%;
+  height: 8vw;
+  overflow-x: hidden;
+  margin-top: 3%;
+  top: 100px;
+  left: -5px;
+  line-height: normal;
+  z-index: -1;
+  
+  .track {
+    position: absolute;
+    white-space: nowrap;
+  }
+  .track > h1 {
+    background-color: black;
+    font-size: 5vw;
+    font-family: AllianceNo1-ExtraBold;
+    color: #FFE800;
+    text-transform: uppercase;
+  }
+}
+
+.marquee-2{
+  position: relative; 
+  transform: rotate(2.59deg);
+  margin-top: 15%;
+  left: -5px;
+  line-height: normal;
+  z-index: -1;
+  .track > h1{
+    color: black;
+    background-color: #98D8DD;
+  }
+}
+
+
+
+
+@keyframes updown {
+  0% {
+      transform: translate(0, 0);
+  }
+  50% {
+      transform: translate(0, 100);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

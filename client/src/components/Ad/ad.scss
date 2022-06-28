@@ -1,0 +1,28 @@
+.chat__dialog{
+    &-ad{
+        cursor: pointer;
+        padding: 12px 24px;
+        height: 80px;
+        &-info{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            img{
+                width: 65px;
+                height: 55px;
+                border: 1px solid #EACD84;
+            }
+        }
+        &-description{
+            margin-left: 15px;
+            font-size: 16px;
+            font-weight: 500;  
+        }
+        &-price{
+            margin-left: 15px;
+            font-family: "AllianceNo1-Bold";
+            font-weight: bold;
+            color: #E3BD59;
+        }
+    }
+}

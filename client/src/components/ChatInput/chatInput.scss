@@ -1,0 +1,41 @@
+.chat-input {
+  margin: 10px 20px;
+  position: relative;
+
+  & > div:first-of-type{
+    display: flex;
+  }
+
+  &__attachments {
+    padding-top: 10px;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: space-between;
+    margin-left: 15px;
+
+    &-upload-btn {
+      cursor: pointer;
+      input {
+        &::-webkit-file-upload-button {
+          cursor:pointer;
+        }
+      }
+      &:hover {
+        button {
+          cursor: pointer;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  .ant-btn-circle {
+    .anticon {
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+}

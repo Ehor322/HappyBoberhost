@@ -1,0 +1,27 @@
+.messages {
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    overflow: auto;
+    &--loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .ant-spin-text{
+        color:#E3BD59;
+        font-weight: 600;
+    }
+    .ant-spin-dot-item{
+        background-color: #E3BD59;
+    }
+    &::-webkit-scrollbar{
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb{
+      background-color: #ececec;
+      border: 3px solid #fff;
+      border-radius: 50px;
+    }
+  }

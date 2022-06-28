@@ -1,0 +1,129 @@
+.Rules{
+    .Rules-Main-Screen{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 46vw;
+      background: #DDDDDD;
+      p{
+        font-family: "Montserrat";
+        font-size: 12.625vw;
+        font-weight: bolder;
+        color: #EFEFEF;
+        line-height: 12vw;
+        text-align: center;
+      }
+      
+    }
+    .rules__main-screen-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .rules__main-screen-img1{
+      display: flex;
+      justify-content: center;
+      animation: anim1 infinite 2s;
+      margin-left: 13%;
+      img{
+        width: 15vw;
+      }
+    }
+    .rules__main-screen-img2{
+      display: flex;
+      justify-content: center;
+      margin-left: 33%;
+  
+      img{
+        width: 35vw;
+      }
+    }
+    .rules__main-screen-img3{
+      display: flex;
+      justify-content: center;
+      margin-left: 70%;
+      img{
+        width: 15vw;
+      }
+  
+    }
+  
+    .Rules-animation-div1{
+      animation: anim1 infinite 15s;
+    }
+    .Rules-animation-div2{
+      animation: anim2 infinite 15s;
+    }
+    .Rules-animation-div3{
+      animation: anim3 infinite 15s;
+    }
+  }
+  
+  @keyframes anim1{
+    0%{
+      margin-top: 2%;
+    }
+    50%{
+      margin-top: 10%;
+    }
+    100%{
+      margin-top: 2%;
+    }
+  }
+  
+  @keyframes anim2{
+    0%{
+      margin-top: 20%;
+    }
+    50%{
+      margin-top: 10%;
+    }
+    100%{
+      margin-top: 20%;
+    }
+  }
+  
+  @keyframes anim3{
+    0%{
+      margin-top: 25%;
+    }
+    50%{
+      margin-top: 35%;
+    }
+    100%{
+      margin-top: 25%;
+    }
+  }
+  
+  .Rules-text-Bold{
+    font-family: "AllianceNo1-Bold";
+    font-size: 1vw;
+  }
+  
+  .Rules-text-ExtraBold{
+    font-family: "AllianceNo1-ExtraBold";
+    font-size: 1.7vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    margin-left: 1.5vw;
+  }
+  
+  .Rules-text-Light{
+    font-family: "AllianceNo1-Medium";
+    font-size: 0.8vw;
+  }
+  .Rules-Text-Wrapper{
+    position: relative;
+    margin-bottom: 1vw;
+  }
+  .Rules-Text-Wrapper::after{
+    content: "";
+    position: absolute;
+    background-color: #E5CC8B;
+    height: 0.01vw;
+    left: 2.5%;
+  
+    bottom: -0.8vw;
+    width: 95%;
+  }

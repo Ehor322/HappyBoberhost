@@ -1,0 +1,60 @@
+.bober{
+  display: flex;
+  justify-content: space-between;
+  height: 55vw;
+  overflow-x: hidden;
+  .right{
+    
+    color: black;
+    padding-top: 5%;
+    padding-right: 5%;
+    line-height: normal;
+    width: 40%;
+
+    img{
+      width: 100%;
+    }
+    
+  }
+  .left{
+    padding-top: 5%;
+    width: 45%;
+    padding-left: 3%;
+
+    .about-big-text{
+      font-family: 'Montserrat';
+      font-size: 3.333vw;
+      line-height: 4.063vw;
+      font-weight: bolder;
+    }
+  
+    .about-normal-text{
+      margin-bottom: 6.250vw;
+      font-size: 1.250vw;
+      font-weight: 600;
+  
+      .little-text{
+        margin-top: 0px; 
+        font-size: 1.042vw;
+      }
+      p{
+        margin-top: 3.125vw; 
+        line-height: 1.563vw;     
+      }
+      .pink{
+        color: #FF3C82;
+        font-weight: 700;
+      }
+  
+      .blue{
+        color: #3A70FA;
+        font-weight: 700;
+      }
+
+    }
+    .buttons{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
