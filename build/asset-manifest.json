@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36bc4b5f.css",
+    "main.js": "/static/js/main.6f074b24.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/About our company plate.jpg": "/static/media/About our company plate.684c5797e717af4baaa1.jpg",
+    "static/media/Cat image.png": "/static/media/Cat image.9d8df785bc6166550482.png",
+    "static/media/Background.jpg": "/static/media/Background.1b944326d9547a69aa96.jpg",
+    "static/media/mobile.png": "/static/media/mobile.add0fcc072a776c6da97.png",
+    "static/media/Book.png": "/static/media/Book.b634b1423e1f09fc9789.png",
+    "static/media/contact.png": "/static/media/contact.4a0496bbd0aca1dc4d5f.png",
+    "static/media/Dog and rat vector.svg": "/static/media/Dog and rat vector.f53a3713096d084567a0bd903c2b9457.svg",
+    "static/media/AllianceNo1-ExtraBold.ttf": "/static/media/AllianceNo1-ExtraBold.77d1a0fa348111cb66b3.ttf",
+    "static/media/AllianceNo1-Bold.ttf": "/static/media/AllianceNo1-Bold.c4edeb86147fc636fb53.ttf",
+    "static/media/AllianceNo1-SemiBold.ttf": "/static/media/AllianceNo1-SemiBold.349e8b6751b868256907.ttf",
+    "static/media/AllianceNo1-Light.ttf": "/static/media/AllianceNo1-Light.955051e9bea51ddff877.ttf",
+    "static/media/AllianceNo1-Medium.ttf": "/static/media/AllianceNo1-Medium.d82d97aff7b72cf0f852.ttf",
+    "static/media/Account.svg": "/static/media/Account.8c3469de136c8ba69e554de0d0227d4f.svg",
+    "static/media/Cat.png": "/static/media/Cat.89387739fccb8881a5e1.png",
+    "static/media/Book 2.png": "/static/media/Book 2.468e6154d0405579ec86.png",
+    "static/media/satellite.png": "/static/media/satellite.d7c65c25dcf958e75909.png",
+    "static/media/button-appstore.svg": "/static/media/button-appstore.f67524824c3d4a1f26de96b25ea0ac6b.svg",
+    "static/media/Logo.png": "/static/media/Logo.8a90550f5aa38324f020.png",
+    "static/media/button-google-play.svg": "/static/media/button-google-play.c561df822c745b66cb98b88f6515a5f0.svg",
+    "static/media/logo1.svg": "/static/media/logo1.3e80b1f3d0f9643e10493d46921797e0.svg",
+    "static/media/ReportIcon.svg": "/static/media/ReportIcon.217a3f44e77754024a7387e151525a62.svg",
+    "static/media/RegionSvg.svg": "/static/media/RegionSvg.eb54487f5fee7f76f9f0240f64f22a18.svg",
+    "index.html": "/index.html",
+    "static/media/Favorite.svg": "/static/media/Favorite.d7813aaa0e9abd257ff1840740ac0938.svg",
+    "static/media/readed.svg": "/static/media/readed.da3c99324b4eb3958865b24076453ba3.svg",
+    "static/media/noreaded.svg": "/static/media/noreaded.a7c0ab31b14324a6272d3bb9feae835b.svg",
+    "static/media/Open language.svg": "/static/media/Open language.9b99db88debb7205c379ae545ee5cb60.svg",
+    "main.36bc4b5f.css.map": "/static/css/main.36bc4b5f.css.map",
+    "main.6f074b24.js.map": "/static/js/main.6f074b24.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36bc4b5f.css",
+    "static/js/main.6f074b24.js"
+  ]
+}
